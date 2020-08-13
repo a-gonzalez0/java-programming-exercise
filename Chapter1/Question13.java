@@ -1,7 +1,7 @@
 package chapter1;
 
 /*
- * (Algebra: solve 2 * 2 linear equations) You can use Cramer’s rule to solve the following
+ * (Algebra: solve 2 * 2 linear equations) You can use Cramerâ€™s rule to solve the following
 2 * 2 system of linear equation:
 ax + by = e
 cx + dy = f
