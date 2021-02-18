@@ -20,5 +20,5 @@ public class Question08 {
         char c = (char) ascii;
 		
         System.out.print("The character for ASCII code " + ascii + " is " + c);
-	}
+    }
 }
