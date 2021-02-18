@@ -13,8 +13,8 @@ import java.util.Scanner;
  * 
  * Write a program that prompts the user to enter values for a, b, and c and displays
  * the result based on the discriminant. If the discriminant is positive, display two
- * roots. If the discriminant is 0, display one root. Otherwise, display “The equation
- * has no real roots.”
+ * roots. If the discriminant is 0, display one root. Otherwise, display â€œThe equation
+ * has no real roots.â€
  * 
  * Note you can use Math.pow(x, 0.5) to compute 2x. Here are some sample
  * runs:
