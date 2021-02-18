@@ -10,15 +10,15 @@ import java.util.Scanner;
  */
 
 public class Question08 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
 		
-		// Prompt the user to enter an ASCII code
-		System.out.print("Enter an ASCII code (an integer between 0 and 127): ");
-		int ascii = input.nextInt();
-		char c = (char) ascii;
+        // Prompt the user to enter an ASCII code
+        System.out.print("Enter an ASCII code (an integer between 0 and 127): ");
+        int ascii = input.nextInt();
+        char c = (char) ascii;
 		
-		System.out.print("The character for ASCII code " + ascii + " is " + c);
+        System.out.print("The character for ASCII code " + ascii + " is " + c);
 	}
 }
