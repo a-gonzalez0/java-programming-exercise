@@ -23,5 +23,5 @@ public class Question09 {
 		
         // Display the result
         System.out.print("The Unicode for the character " +  ch + " is " + unicode);
-	}
+    }
 }
