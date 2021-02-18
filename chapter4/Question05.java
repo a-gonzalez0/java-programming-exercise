@@ -18,23 +18,22 @@ import java.util.Scanner;
  * The area of the polygon is 72.69017017488385
  */
 public class Question05 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
 		
-		// Prompt the user to enter the number of sides
-		System.out.print("Enter the number of sides: ");
-		int numberOfSides = input.nextInt();
+        // Prompt the user to enter the number of sides
+        System.out.print("Enter the number of sides: ");
+        int numberOfSides = input.nextInt();
 		
-		// Prompt the user to enter the side:
-		System.out.print("Enter the side: ");
-		double side = input.nextDouble();
+        // Prompt the user to enter the side:
+        System.out.print("Enter the side: ");
+        double side = input.nextDouble();
 		
-		// Compute the area
-		double area = (numberOfSides * Math.pow(side, 2)) / (4 * Math.tan(Math.PI / numberOfSides));
+        // Compute the area
+        double area = (numberOfSides * Math.pow(side, 2)) / (4 * Math.tan(Math.PI / numberOfSides));
 		
-		// Display the result
-		System.out.print("The area of the polygon is " + area);
-		
+        // Display the result
+        System.out.print("The area of the polygon is " + area);
 	}
 }
