@@ -14,21 +14,21 @@ import java.util.Scanner;
  */
 
 public class Question14 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
 		
-		// Prompt user to enter a letter grade
-		System.out.print("Enter a letter grade: ");
-		String letter = input.next();
+        // Prompt user to enter a letter grade
+        System.out.print("Enter a letter grade: ");
+        String letter = input.next();
 		
-		switch(letter) {
-			case "A": System.out.print("The numeric value for grade A is 4");  break;
-			case "B": System.out.print("The numeric value for grade B is 3"); break;
-			case "C": System.out.print("The numeric value for grade C is 2"); break;
-			case "D": System.out.print("The numeric value for grade D is 1"); break;
-			case "F": System.out.print("The numeric value for grade F is 0"); break;
-			default: System.out.print(letter + " is an invalid grade");
-		}
-	}
+        switch(letter) {
+            case "A": System.out.print("The numeric value for grade A is 4");  break;
+            case "B": System.out.print("The numeric value for grade B is 3"); break;
+            case "C": System.out.print("The numeric value for grade C is 2"); break;
+            case "D": System.out.print("The numeric value for grade D is 1"); break;
+            case "F": System.out.print("The numeric value for grade F is 0"); break;
+            default: System.out.print(letter + " is an invalid grade");
+        }
+    }
 }
