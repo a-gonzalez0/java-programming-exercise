@@ -17,28 +17,28 @@ import java.util.Scanner;
  */
 
 public class Question13 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
 		
-		// Prompt user to enter a letter
-		System.out.print("Enter a letter: ");
-		String letter = input.next();
+        // Prompt user to enter a letter
+        System.out.print("Enter a letter: ");
+        String letter = input.next();
 		
-		// Check whether the letter is a vowel or consonant
-		if (letter.equalsIgnoreCase("A") || letter.equalsIgnoreCase("E") || letter.equalsIgnoreCase("I") ||
-				letter.equalsIgnoreCase("O") || letter.equalsIgnoreCase("U")) {
-			System.out.print(letter + " is a vowel");
-		} else if (letter.equalsIgnoreCase("B") || letter.equalsIgnoreCase("C") || letter.equalsIgnoreCase("D") ||
-				letter.equalsIgnoreCase("F") || letter.equalsIgnoreCase("G") || letter.equalsIgnoreCase("H") ||
-				letter.equalsIgnoreCase("J") || letter.equalsIgnoreCase("K") || letter.equalsIgnoreCase("L") ||
-				letter.equalsIgnoreCase("M") || letter.equalsIgnoreCase("N") || letter.equalsIgnoreCase("P") ||
-				letter.equalsIgnoreCase("Q") || letter.equalsIgnoreCase("R") || letter.equalsIgnoreCase("S") ||
-				letter.equalsIgnoreCase("T") || letter.equalsIgnoreCase("V") || letter.equalsIgnoreCase("W") ||
-				letter.equalsIgnoreCase("X") || letter.equalsIgnoreCase("Y") || letter.equalsIgnoreCase("Z")) {
-			System.out.print(letter + " is a consonant");
-		} else {
-			System.out.print(letter + " is an invalid input");
-		}
-	}
+        // Check whether the letter is a vowel or consonant
+        if (letter.equalsIgnoreCase("A") || letter.equalsIgnoreCase("E") || letter.equalsIgnoreCase("I") ||
+            letter.equalsIgnoreCase("O") || letter.equalsIgnoreCase("U")) {
+            System.out.print(letter + " is a vowel");
+        } else if (letter.equalsIgnoreCase("B") || letter.equalsIgnoreCase("C") || letter.equalsIgnoreCase("D") ||
+                   letter.equalsIgnoreCase("F") || letter.equalsIgnoreCase("G") || letter.equalsIgnoreCase("H") ||
+                   letter.equalsIgnoreCase("J") || letter.equalsIgnoreCase("K") || letter.equalsIgnoreCase("L") ||
+                   letter.equalsIgnoreCase("M") || letter.equalsIgnoreCase("N") || letter.equalsIgnoreCase("P") ||
+                   letter.equalsIgnoreCase("Q") || letter.equalsIgnoreCase("R") || letter.equalsIgnoreCase("S") ||
+                   letter.equalsIgnoreCase("T") || letter.equalsIgnoreCase("V") || letter.equalsIgnoreCase("W") ||
+                   letter.equalsIgnoreCase("X") || letter.equalsIgnoreCase("Y") || letter.equalsIgnoreCase("Z")) {
+            System.out.print(letter + " is a consonant");
+        } else {
+            System.out.print(letter + " is an invalid input");
+        }
+    }
 }
