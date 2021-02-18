@@ -12,19 +12,20 @@ import java.util.Scanner;
  * Enter the side: 5.5
  * The area of the hexagon is 78.59
  */
+
 public class Question04 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
 		
-		// Prompt the user to enter the side of a hexagon
-		System.out.print("Enter the side: ");
-		double side = input.nextDouble();
+        // Prompt the user to enter the side of a hexagon
+        System.out.print("Enter the side: ");
+        double side = input.nextDouble();
 		
-		// Compute the area
-		double area = (6 * Math.pow(side, 2)) / (4 * Math.tan(Math.PI / 6));
+        // Compute the area
+        double area = (6 * Math.pow(side, 2)) / (4 * Math.tan(Math.PI / 6));
 		
-		// Display the result
-		System.out.printf("The area of the hexagon is %4.2f", area);
+        // Display the result
+        System.out.printf("The area of the hexagon is %4.2f", area);
 	}
 }
