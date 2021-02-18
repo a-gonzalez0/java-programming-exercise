@@ -1,8 +1,8 @@
 package chapter1;
 
 /*
- * (Algebra: solve 2 x 2 linear equations) You can use Cramer’s rule to solve the
- * following 2 x 2 system of linear equation provided that ad – bc is not 0:
+ * (Algebra: solve 2 x 2 linear equations) You can use Cramerâ€™s rule to solve the
+ * following 2 x 2 system of linear equation provided that ad â€“ bc is not 0:
  * 
  * ax + by = e
  * cx + dy = f
