@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Round up two digits after the decimal point. Here is a sample run:
  * 
  * Enter the length from the center to a vertex: 5.5
- * The area of the pentagon is 71.92
+ * The area of the pentagon is 71.92 
  */
 
 public class Question01 {
