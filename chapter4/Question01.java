@@ -18,19 +18,19 @@ import java.util.Scanner;
  */
 
 public class Question01 {
-	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        // Create a Scanner object
+	    Scanner input = new Scanner(System.in);
 		
-		// Prompt the user to enter the length
-		System.out.print("Enter the length from the center to a vertex: ");
-		double length = input.nextDouble();
-		length = 2 * length * Math.sin(Math.PI / 5);
+	    // Prompt the user to enter the length
+	    System.out.print("Enter the length from the center to a vertex: ");
+	    double length = input.nextDouble();
+	    length = 2 * length * Math.sin(Math.PI / 5);
 		
-		// Compute the area
-		double area = (5 * Math.pow(length, 2)) / (4 * Math.tan(Math.PI / 5));
+	    // Compute the area
+	    double area = (5 * Math.pow(length, 2)) / (4 * Math.tan(Math.PI / 5));
 		
-		// Display the result
-		System.out.printf("The area of the pentagon is %4.2f", area);
+	    // Display the result
+	    System.out.printf("The area of the pentagon is %4.2f", area);
 	}
 }
