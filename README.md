@@ -1,2 +1,2 @@
 # java-programming-exercise
-Introduction to Java Programming and Data Structures, Comprehensive Version (12th Edition) - Programming Exercise
+Solutions to Programming Exercises in Introduction to Java Programming, Comprehensive Version (12th Edition) by Y. Daniel Liang
